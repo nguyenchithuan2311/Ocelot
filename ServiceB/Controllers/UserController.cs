@@ -1,8 +1,6 @@
-
 using Microsoft.AspNetCore.Mvc;
 
-namespace APIGateway_Ocelot.Controllers;
-
+namespace ServiceB.Controllers;
 [ApiController]
 [Route("api/user")]
 public class UserController : ControllerBase
@@ -16,7 +14,7 @@ public class UserController : ControllerBase
         //     new("test1", "thuan2"),
         //     new("test2", "thuan2")
         // };
-        return "Service A";
+        return "Service B";
 
     }
 }
